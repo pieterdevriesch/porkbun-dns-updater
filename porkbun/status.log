@@ -1,0 +1,13 @@
+Script executing at Thu Aug  1 15:25:00 CEST 2024
+status.json not found. Retrieving Porkbun DNS record now.
+DNS points to IP 123.123.123.123
+Current WAN IP is 123.123.123.123
+WAN IP matches DNS record. All good.
+Script executing at Thu Aug  1 15:30:00 CEST 2024
+DNS points to IP 123.123.123.123
+Current WAN IP is 234.234.234.234
+Porkbun DNS setting is not correct! Changing now!
+Script executing at Thu Aug  1 15:35:00 CEST 2024
+DNS points to IP 234.234.234.234
+Current WAN IP is 234.234.234.234
+WAN IP matches DNS record. All good.
