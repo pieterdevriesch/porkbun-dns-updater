@@ -1,0 +1,1 @@
+{"_comment": "This is an example return file from the Porkbun API except for this dummy key comment","status":"SUCCESS","cloudflare":"enabled","records":[{"id":"123456789","name":"*.example.com","type":"A","content":"123.123.123.123","ttl":"600","prio":"0","notes":""}]}
