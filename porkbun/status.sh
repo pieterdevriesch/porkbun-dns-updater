@@ -3,6 +3,9 @@
 # load secrets so they don't need to be hardcoded in the script. Replace with something more secure if needed.
 source ./.credentials
 
+# uncomment this line to make sur the log does not get too big, or use another method to manage logfiles
+#tail -n 100 status.log > tmp.log && mv tmp.log status.log
+
 # enable logging of all output streams. Use logrotate to manage your logs, by default will just always append.
 exec 3>&1 4>&2
 trap 'exec 2>&4 1>&3' 0 1 2 3
